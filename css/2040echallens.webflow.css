@@ -55,12 +55,13 @@ a {
 }
 
 .section.grise {
-  height: 50vh;
+  height: 60vh;
   background-color: #c4c5c5;
 }
 
 .section.programme {
   height: 60vh;
+  padding-top: 60px;
 }
 
 .section.newsletter {
@@ -68,7 +69,7 @@ a {
 }
 
 .section.questions {
-  height: 85vh;
+  height: 95vh;
 }
 
 .section.qui {
@@ -112,6 +113,28 @@ a {
   background-position: 100% 100%;
   background-size: 250px;
   background-repeat: no-repeat;
+}
+
+.container.programme {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
 }
 
 .container.questions {
@@ -343,17 +366,30 @@ a {
     font-size: 28px;
   }
   .section.grise {
-    height: 70vh;
+    height: 90vh;
+  }
+  .section.programme {
+    height: 75vh;
   }
   .section.newsletter {
     height: 1100px;
   }
   .section.questions {
-    height: 110vh;
+    height: 140vh;
     padding-top: 40px;
   }
   .section.intro {
-    height: 85vh;
+    height: 90vh;
+  }
+  .container.intro {
+    margin-top: 40px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .container.programme {
+    padding-top: 40px;
   }
   .container.questions {
     padding-top: 0px;
@@ -391,7 +427,7 @@ a {
     margin-bottom: 60px;
   }
   .header {
-    height: 80vh;
+    height: 100vh;
   }
   .container-2.footer {
     height: 500px;

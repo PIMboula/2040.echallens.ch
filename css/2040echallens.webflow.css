@@ -25,6 +25,7 @@ a {
   font-size: 98px;
   font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .body {
@@ -78,6 +79,24 @@ a {
   padding-bottom: 40px;
 }
 
+.section.demarche {
+  height: auto;
+  padding-bottom: 0px;
+  background-color: #fff;
+}
+
+.section._24juin {
+  background-color: #fff;
+}
+
+.section.seancepublique {
+  background-color: #c4c5c5;
+  background-image: url('../images/undraw_professor_8lrt.svg');
+  background-position: 50% 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
 .container {
   position: static;
   display: -webkit-box;
@@ -109,6 +128,7 @@ a {
 }
 
 .container.intro {
+  padding-bottom: 140px;
   background-image: url('../images/undraw_moving_forward_lhhd.svg');
   background-position: 100% 100%;
   background-size: 250px;
@@ -158,15 +178,47 @@ a {
   background-repeat: no-repeat;
 }
 
+.container._24juin {
+  padding-top: 40px;
+  background-image: url('../images/undraw_conference_speaker_6nt7.svg');
+  background-position: 100% 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.container.ateliers {
+  padding-bottom: 160px;
+  background-image: url('../images/undraw_dreamer_gxxi.svg');
+  background-position: 0% 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.container.seancepublique {
+  padding-top: 60px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
 .text-block {
+  display: block;
   width: 70%;
   margin-bottom: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   font-family: 'Open Sans', sans-serif;
   color: #1d1d1b;
   font-size: 28px;
   line-height: 35px;
   font-weight: 300;
-  text-align: center;
+  text-align: left;
 }
 
 .text-block.txt-grand {
@@ -351,6 +403,67 @@ a {
 
 .link-white:visited {
   color: #f2f2f3;
+}
+
+.container-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  padding-top: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.div-block-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.div-block-4 {
+  width: 100%;
+}
+
+.paragraph-3 {
+  display: block;
+}
+
+.paragraph-3.text-block {
+  display: block;
+}
+
+.image-9 {
+  display: block;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #ffe500;
+}
+
+.image-10 {
+  display: block;
+  padding-top: 20px;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+.navlink.w--current {
+  color: #333;
+  font-style: normal;
+  text-decoration: underline;
 }
 
 @media (max-width: 479px) {

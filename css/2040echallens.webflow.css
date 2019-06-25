@@ -456,6 +456,12 @@ a {
   padding-top: 20px;
 }
 
+.navlink {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .navlink:hover {
   text-decoration: underline;
 }
@@ -464,6 +470,7 @@ a {
   color: #333;
   font-style: normal;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 @media (max-width: 479px) {

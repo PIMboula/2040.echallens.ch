@@ -164,9 +164,9 @@ li {
 
 .container.intro {
   padding-bottom: 140px;
-  background-image: url('../images/undraw_dreamer_gxxi.svg');
+  background-image: url('../images/undraw_preparation_rrih.svg');
   background-position: 100% 100%;
-  background-size: 300px;
+  background-size: 350px;
   background-repeat: no-repeat;
 }
 
@@ -590,7 +590,7 @@ li {
 }
 
 .lightbox-link {
-  display: block;
+  display: none;
   margin-right: auto;
   margin-left: auto;
   padding-top: 40px;
@@ -604,6 +604,7 @@ li {
   -ms-flex-align: center;
   align-items: center;
   background-color: #ffe500;
+  opacity: 1;
   text-decoration: none;
 }
 

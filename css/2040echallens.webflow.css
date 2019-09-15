@@ -115,6 +115,10 @@ li {
   background-color: #fff;
 }
 
+.section.atelier1 {
+  height: 75vh;
+}
+
 .section.seancepublique {
   background-color: #c4c5c5;
   background-image: url('../images/undraw_professor_8lrt.svg');
@@ -130,6 +134,19 @@ li {
 .section.article {
   height: auto;
   background-color: #fff;
+}
+
+.section.atelier3 {
+  height: 55vh;
+}
+
+.section.atelier2 {
+  height: 55vh;
+  background-color: #fff;
+  background-image: url('../images/undraw_scooter_aia8.svg');
+  background-position: 100% 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -223,7 +240,7 @@ li {
 
 .container.ateliers {
   padding-bottom: 160px;
-  background-image: url('../images/undraw_dreamer_gxxi.svg');
+  background-image: url('../images/undraw_preparation_rrih.svg');
   background-position: 0% 100%;
   background-size: 350px;
   background-repeat: no-repeat;
@@ -235,6 +252,14 @@ li {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
+}
+
+.container.atelier3 {
+  padding-bottom: 160px;
+  background-image: url('../images/undraw_scrum_board_cesn.svg');
+  background-position: 0% 100%;
+  background-size: 350px;
+  background-repeat: no-repeat;
 }
 
 .text-block {
@@ -671,14 +696,20 @@ li {
   .section._24juin {
     height: 120vh;
   }
-  .section.ateliers {
+  .section.atelier1 {
     height: 95vh;
   }
   .section.seancepublique {
-    height: 100vh;
+    height: 80vh;
   }
   .section.footer {
     height: 700px;
+  }
+  .section.atelier3 {
+    height: 80vh;
+  }
+  .section.atelier2 {
+    height: 80vh;
   }
   .container {
     -webkit-box-pack: center;

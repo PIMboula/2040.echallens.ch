@@ -290,6 +290,8 @@ li {
 
 .text-block.gauche {
   width: 85%;
+  font-size: 28px;
+  line-height: 35px;
   text-align: left;
 }
 
@@ -328,6 +330,8 @@ li {
 }
 
 .section-header.gauche {
+  font-size: 20px;
+  line-height: 30px;
   text-decoration: none;
 }
 
@@ -625,7 +629,7 @@ li {
 }
 
 .lightbox-link {
-  display: none;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   padding-top: 40px;

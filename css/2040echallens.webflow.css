@@ -609,9 +609,19 @@ li {
   font-weight: 300;
 }
 
+.article p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
 .article li {
   font-size: 24px;
   line-height: 32px;
+}
+
+.article.atelier1 {
+  line-height: 60px;
+  white-space: normal;
 }
 
 .lightbox-link {

@@ -534,9 +534,8 @@ li {
   font-weight: 300;
 }
 
-.gauche.link-white {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+.link-white {
+  color: #f2f2f3;
 }
 
 .link-white:visited {

@@ -187,6 +187,12 @@ li {
   background-repeat: no-repeat;
 }
 
+.container.intro.atelier2 {
+  background-image: url('../images/undraw_toy_car_7umw.svg');
+  background-position: 100% 100%;
+  background-size: 350px;
+}
+
 .container.programme {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -394,10 +400,14 @@ li {
 }
 
 .footer {
-  height: 300px;
+  height: 260px;
   clear: none;
   background-color: #9fa0a0;
+  font-family: 'Open Sans', sans-serif;
   color: #f2f2f3;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
 }
 
 .container-2 {
@@ -519,11 +529,19 @@ li {
 
 .gauche.footer {
   height: auto;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  font-weight: 300;
+}
+
+.gauche.link-white {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
 
 .link-white:visited {
   color: #f2f2f3;
+  font-style: normal;
 }
 
 .container-3 {
@@ -628,6 +646,11 @@ li {
   white-space: normal;
 }
 
+.article.atelier2 {
+  line-height: 60px;
+  white-space: normal;
+}
+
 .lightbox-link {
   display: block;
   margin-right: auto;
@@ -666,6 +689,14 @@ li {
   margin-top: 5px;
   color: #000;
   text-align: center;
+}
+
+.text-block-4 {
+  display: inline;
+}
+
+.text-block-5 {
+  display: inline;
 }
 
 @media (max-width: 479px) {

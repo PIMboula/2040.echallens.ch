@@ -729,13 +729,19 @@ li {
   }
   .section.newsletter {
     height: 1100px;
+    padding-left: 10px;
   }
   .section.questions {
-    height: 130vh;
+    height: 150vh;
     padding-top: 40px;
   }
   .section.intro {
     height: 110vh;
+  }
+  .section.intro.home {
+    height: 130vh;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .section._24juin {
     height: 120vh;
@@ -756,6 +762,7 @@ li {
     height: 80vh;
   }
   .container {
+    height: 90%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -767,6 +774,7 @@ li {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    background-position: 50% 100%;
   }
   .container.programme {
     padding-top: 40px;
@@ -789,17 +797,32 @@ li {
     justify-content: flex-start;
   }
   .text-block {
+    margin-bottom: 40px;
     font-size: 22px;
   }
   .text-block.gauche {
     margin-left: 20px;
   }
+  .text-block.gauche.home {
+    margin-left: 20px;
+    font-size: 22px;
+  }
+  .text-block.gauche.qui {
+    margin-left: 20px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    font-size: 22px;
+  }
   .section-header {
     max-width: 80%;
   }
+  .section-header.footer.gauche {
+    margin-top: 20px;
+  }
   .section-header.gauche {
     display: block;
-    margin-left: 20px;
+    margin-left: 40px;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -807,6 +830,19 @@ li {
     -webkit-order: -1;
     -ms-flex-order: -1;
     order: -1;
+  }
+  .section-header.gauche.home {
+    margin-left: 20px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  .section-header.gauche.newsletter {
+    margin-left: 20px;
   }
   .section-header.lightbox {
     display: block;
@@ -845,6 +881,11 @@ li {
   }
   .image-4.gauche {
     margin-left: 20px;
+  }
+  .image-6 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
   }
   .column-2 {
     margin-top: 0px;

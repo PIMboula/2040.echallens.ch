@@ -199,6 +199,12 @@ li {
   background-size: 350px;
 }
 
+.container.intro.restitution {
+  background-image: url('../images/undraw_augmented_reality_heuy.svg');
+  background-position: 100% 100%;
+  background-size: 350px;
+}
+
 .container.programme {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -652,6 +658,11 @@ li {
 }
 
 .article.atelier2 {
+  line-height: 60px;
+  white-space: normal;
+}
+
+.article.restitution {
   line-height: 60px;
   white-space: normal;
 }

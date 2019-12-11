@@ -120,6 +120,7 @@ li {
 }
 
 .section.seancepublique {
+  padding-bottom: 140px;
   background-color: #c4c5c5;
   background-image: url('../images/undraw_professor_8lrt.svg');
   background-position: 50% 100%;
@@ -146,6 +147,13 @@ li {
   background-image: url('../images/undraw_scooter_aia8.svg');
   background-position: 100% 100%;
   background-size: 350px;
+  background-repeat: no-repeat;
+}
+
+.section.restitution {
+  background-image: url('../images/undraw_absorbed_in_xahs.svg');
+  background-position: 100% 100%;
+  background-size: 250px;
   background-repeat: no-repeat;
 }
 
@@ -200,9 +208,9 @@ li {
 }
 
 .container.intro.restitution {
-  background-image: url('../images/undraw_augmented_reality_heuy.svg');
+  background-image: url('../images/undraw_absorbed_in_xahs.svg');
   background-position: 100% 100%;
-  background-size: 350px;
+  background-size: 250px;
 }
 
 .container.programme {
@@ -278,6 +286,10 @@ li {
   background-position: 0% 100%;
   background-size: 350px;
   background-repeat: no-repeat;
+}
+
+.container.restitution {
+  padding-bottom: 160px;
 }
 
 .text-block {
@@ -664,6 +676,7 @@ li {
 
 .article.restitution {
   line-height: 60px;
+  text-align: center;
   white-space: normal;
 }
 
@@ -715,6 +728,48 @@ li {
   display: inline;
 }
 
+.youtube {
+  display: block;
+  width: 100%;
+}
+
+.video {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #ffe500;
+}
+
+.container-4 {
+  display: inline-block;
+}
+
+.container-4.video {
+  display: block;
+}
+
+.div-block-5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: left;
+}
+
 @media (max-width: 479px) {
   h3 {
     font-size: 24px;
@@ -764,26 +819,43 @@ li {
     height: 120vh;
   }
   .section.atelier1 {
-    height: 95vh;
+    height: 110vh;
   }
   .section.seancepublique {
     height: 80vh;
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
   }
   .section.footer {
     height: 700px;
   }
   .section.atelier3 {
-    height: 80vh;
+    height: 90vh;
   }
   .section.atelier2 {
-    height: 80vh;
+    height: 100vh;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    background-image: none;
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .section.restitution {
+    height: 110vh;
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
   }
   .container {
-    height: 90%;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    height: auto;
+    padding-bottom: 40px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .container.intro {
     margin-top: 40px;
@@ -806,12 +878,37 @@ li {
   }
   .container.newsletter {
     display: block;
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
   }
   .container._24juin {
+    height: 100%;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+  .container.ateliers {
+    height: auto;
+    min-height: 1200px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .container.seancepublique {
+    padding-top: 0px;
+  }
+  .container.atelier3 {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
+    background-repeat: repeat;
+  }
+  .container.restitution {
+    padding-bottom: 140px;
   }
   .text-block {
     margin-bottom: 40px;
